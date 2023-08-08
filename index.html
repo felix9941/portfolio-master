@@ -16,13 +16,13 @@
       <header>
         <nav class="navbar">
           <div class="brand">
-            <h2>F <span>F</span></h2>
+            <h2>F<span1>I</span1><span>F</span></h2>
           </div>
           <ul class="menu" id="menu">
-            <li><a class="active" href="">Inicios</a></li>
+            <li><a class="active" href="">Inicio</a></li>
             <li><a class="active1" href="#Yo">Sobre mi</a></li>
             <li><a class="active2" href="#Portfolio">Portfolio</a></li>
-            <li><a class="active3" href="#Contacto">Contacto</a></li>
+            <li><a class="active3" href="#Contacto">Comunicate</a></li>
           </ul>
           <div class="toggle-menu">
             <i class="fas fa-bars" id="toggle_open"></i>
@@ -30,8 +30,6 @@
           </div>
         </nav>
       </header>
-      <br />
-      <br />
       <br />
       <br />
       <br />
@@ -79,8 +77,8 @@
           "¡Hola! Soy Felix. Soy una persona apasionada, curiosa y en constante
           búsqueda de aprendizaje y crecimiento. Tengo 24 años y vivo en
           Tucumán-Argentina. Actualmente estoy cursando 4° año de la carrera
-          Ingenieria en Sistemas de información en la UTN-FRT. Mi pasión por la
-          informatica mas precisamente la documentación, testing, trabajo en
+          Ingenieria en Sistemas de información en la UTN-FRT. Mi pasión en el área
+          de la informatica es precisamente la documentación, testing, trabajo en
           equipo me ha permitido desarrollar habilidades y conocimientos en esta
           área, y siempre estoy emocionado por sumergirme en nuevos desafíos y
           proyectos relacionados con ello. En mi tiempo libre, disfruto de ver
@@ -107,8 +105,8 @@
     <br />
     <br />
     <br />
-    <div class="portfolio">
-      <div class="portfolio-headings" id="Portfolio">
+    <div class="portfolio" id="Portfolio">
+      <div class="portfolio-headings">
         <h2>My Portfolio</h2>
         <div class="divider"></div>
       </div>
@@ -116,21 +114,22 @@
         <div class="card">
           <div class="card__img"></div>
           <div class="card__title">
-            <h2>Descripción de Proyecto</h2>
+            <h2>Proyecto Cuki</h2>
           </div>
           <div class="card__projects-links">
             <a
-              href="https://github.com/Michaelxk/portfolio-tutorial"
+              href="https://github.com/felix9941/Proyecto-Cuki"
               target="_blank"
             >
               <i class="fab fa-github"></i>
             </a>
-            <a href="">
+           <!-- <a href="">
               <i class="fas fa-globe-americas"></i>
             </a>
             <a href="">
               <i class="fas fa-code"></i>
             </a>
+            -->
           </div>
           <div class="button-content">
             <button class="project-details-button">
@@ -139,24 +138,26 @@
           </div>
         </div>
         <div class="card">
-          <div class="card__img"></div>
+          <div class="card__img1"></div>
           <div class="card__title">
-            <h2>Descripción de Proyecto</h2>
+            <h2>Arg Programa</h2>
           </div>
           <div class="card__projects-links">
             <a
-              href="https://github.com/Michaelxk/portfolio-tutorial"
+              href="https://github.com/felix9941/Proyecto_FigueroaFelix"
               target="_blank"
             >
               <i class="fab fa-github"></i>
             </a>
-            <a href="">
+           <!--<a href="">
               <i class="fas fa-globe-americas"></i>
             </a>
             <a href="">
               <i class="fas fa-code"></i>
             </a>
+            --> 
           </div>
+          
           <div class="button-content">
             <button class="project-details-button">
               <a href="#">Visualizar el proyecto (En Explorador Web)</a>
@@ -169,7 +170,7 @@
     <br />
     <div class="contact-section" id="Contacto">
       <div class="contact-headings">
-        <h2>Mantenerse en contacto</h2>
+        <h2>Comunicate Conmigo</h2>
         <div class="divider"></div>
       </div>
       <div class="container-contact">
@@ -179,51 +180,38 @@
           alt="felix foto opacada"
         />
         <div class="contact-form">
-        <h4>Enviame un mensaje...</h4>
-        <form class="form-group">
-          <div id="input-wrapper">
-            <div>
-              <input
-                class="input-box"
-                type="text"
-                name="username"
-                placeholder="Nombre Completo"
-                required
-              />
-            </div>
-            <div>
-              <input
-                class="input-box"
-                type="email"
-                name="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div>
-              <input
-                class="input-box"
-                type="number"
-                name="Numero"
-                placeholder="Numero de Telefono"
-                required
-                maxlength="10"
-              />
-            </div>
-            <button type="submit" class="btn-submit">Enviar mensaje</button>
-          </div>
-        </form>
-       <!-- <div class="contact-form">
-          <h4>Enviame un mensaje...</h4>
           <form class="form-group">
-            <input type="text" placeholder="Nombre" class="input" />
-            <input type="text" placeholder="Email" class="input" />
-            <textarea name="mensaje" placeholder="Redacta tu mensaje aquí...">
+            <input
+              class="input"
+              type="text"
+              name="username"
+              placeholder="Nombre Completo"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              class="input"
+              type="number"
+              name="telefono"
+              placeholder="N° de telefono"
+              required
+            />
+            <textarea
+              name="mensaje"
+              placeholder="Redacta tu mensaje aquí..."
+              rows="6"
+              cols="30"
+            >
             </textarea>
             <button type="submit" class="btn-submit">Enviar mensaje</button>
           </form>
         </div>
-         -->
       </div>
     </div>
     <br />
@@ -232,9 +220,13 @@
       <div class="footer-content">
         <h2>Felix Figueroa</h2>
         <h5>Frontend Developer</h5>
+       <!-- <h6>&copy Mi Portfolio</h6> -->
       </div>
       <div class="sotial-network">
-        <a href="http://www.instagram.com" target="_blank">
+        <a
+          href="https://instagram.com/felixfigueroaok?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          target="_blank"
+        >
           <i class="fab fa-instagram"></i>
         </a>
         <a
